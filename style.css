@@ -1,0 +1,103 @@
+body{
+  background-color: rgb(245,245,245);
+  font-family: 'Dosis', serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(70,70,70);
+  line-height: 2em;
+}
+
+h1, h2, h3, h4 {
+font-family: 'Dosis', sans-serif;
+font-weight: 700;
+line-height: 1.5em;
+}
+
+h1{
+  color: rgb(110,110,110);
+  font-size: 30px;
+  font-family: 'Dosis', sans-serif;
+}
+
+h2{
+  font-size: 20px;
+}
+
+p{
+  font-size: 15px;
+}
+
+a{
+  color: rgb(80,80,80);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(140,140,140);
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.6em;
+  padding: 80px;
+  margin: 50px;
+  display: table-cell;
+  vertical-align: inherit;
+}
+.center{
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 40px;
+}
+
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  display: block;
+}
+
+.card{
+  background: white;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2)
+}
+
+.text-center{
+  text-align: center;
+}
+
+.profile{
+  width: 200px;
+  height: 250px;
+}
+
+.img-circle{
+  border-radius: 20%;
+}
+
+.affiche{
+  width: 200px;
+  height: 300px;
+  border-radius: 10%;
+  padding: 10px 0px;
+}
+
+.btn{
+  color: rgba(50,50,50, 0.9);
+  border: 1px solid rgb(30,30,30);
+  padding: 5px 15px;
+  border-radius: 80px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 25px;
+}
